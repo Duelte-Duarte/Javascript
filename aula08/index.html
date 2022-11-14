@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem vindo a mais uma aula!</h1>
+    <p id="texto"></p>
+    
+    <button onclick="eventoclick()">Clique aqui</button><br><br>
+    <button ondblclick="eventodbclick()">Clique aqui</button><br><br>
+    <div id="teste" onmouseout="ficarlaranja()" onmouseover="ficarpreto()" style="margin:auto; width: 80%; height: 200px; background: orange"></div><br><br>
+    <input onfocus="limpar()" type="text" name="text" id="textocampo" style="padding: 80px; font-size: 40px" placeholder="Digite alguma coisa" value="Já vem com o texto"><br><br>
+    <select onchange="mudou()" name="" id="itens"> 
+        <option value="1">valor 1</option>
+        <option value="2">valor 2</option>
+        <option value="3">valor 3</option>
+        <option value="4">valor 4</option>
+    </select>
+    
+    <script src="../aula08/js/index.js"></script>
+</body>
+</html>
